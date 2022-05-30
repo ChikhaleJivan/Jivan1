@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T13:03:46 IST" name="Whole Suite" finished-at="2022-05-29T13:04:15 IST" duration-ms="29007">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T13:03:46 IST" name="Regression" finished-at="2022-05-29T13:04:09 IST" duration-ms="23387">
+      <class name="com.reqres.requests.LoginUnsuccessfull">
+        <test-method signature="loginunsuccessfull()[pri:0, instance:com.reqres.requests.LoginUnsuccessfull@6bd61f98]" started-at="2022-05-29T13:04:09 IST" name="loginunsuccessfull" finished-at="2022-05-29T13:04:09 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginunsuccessfull -->
+      </class> <!-- com.reqres.requests.LoginUnsuccessfull -->
+      <class name="com.reqres.requests.ListResources">
+        <test-method signature="listresources()[pri:0, instance:com.reqres.requests.ListResources@4b0d79fc]" started-at="2022-05-29T13:03:57 IST" name="listresources" finished-at="2022-05-29T13:03:57 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listresources -->
+      </class> <!-- com.reqres.requests.ListResources -->
+      <class name="com.reqres.requests.ListUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.reqres.requests.ListUser@55634720]" started-at="2022-05-29T13:03:57 IST" name="setup" finished-at="2022-05-29T13:03:57 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ListUsersOnPageTwo()[pri:0, instance:com.reqres.requests.ListUser@55634720]" started-at="2022-05-29T13:03:57 IST" name="ListUsersOnPageTwo" finished-at="2022-05-29T13:03:57 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListUsersOnPageTwo -->
+      </class> <!-- com.reqres.requests.ListUser -->
+      <class name="com.reqres.requests.LogngSuccessfull">
+        <test-method signature="loginsuccessfull()[pri:0, instance:com.reqres.requests.LogngSuccessfull@4efac082]" started-at="2022-05-29T13:04:08 IST" name="loginsuccessfull" finished-at="2022-05-29T13:04:09 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsuccessfull -->
+      </class> <!-- com.reqres.requests.LogngSuccessfull -->
+      <class name="com.reqres.requests.DelayedResponse">
+        <test-method signature="delayedresponse()[pri:0, instance:com.reqres.requests.DelayedResponse@d9345cd]" started-at="2022-05-29T13:03:57 IST" name="delayedresponse" finished-at="2022-05-29T13:04:06 IST" duration-ms="8612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayedresponse -->
+      </class> <!-- com.reqres.requests.DelayedResponse -->
+      <class name="com.reqres.requests.SingleResource">
+        <test-method signature="singleresource()[pri:0, instance:com.reqres.requests.SingleResource@3ee37e5a]" started-at="2022-05-29T13:03:54 IST" name="singleresource" finished-at="2022-05-29T13:03:55 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleresource -->
+      </class> <!-- com.reqres.requests.SingleResource -->
+      <class name="com.reqres.requests.Delete">
+        <test-method signature="delete()[pri:0, instance:com.reqres.requests.Delete@3c7f66c4]" started-at="2022-05-29T13:03:56 IST" name="delete" finished-at="2022-05-29T13:03:57 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- com.reqres.requests.Delete -->
+      <class name="com.reqres.requests.SingleResourceNotFound">
+        <test-method signature="singleusernotfound()[pri:0, instance:com.reqres.requests.SingleResourceNotFound@2d710f1a]" started-at="2022-05-29T13:04:06 IST" name="singleusernotfound" finished-at="2022-05-29T13:04:07 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleusernotfound -->
+      </class> <!-- com.reqres.requests.SingleResourceNotFound -->
+      <class name="com.reqres.requests.Create">
+        <test-method signature="create()[pri:0, instance:com.reqres.requests.Create@25fb8912]" started-at="2022-05-29T13:03:46 IST" name="create" finished-at="2022-05-29T13:03:54 IST" duration-ms="8404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- com.reqres.requests.Create -->
+      <class name="com.reqres.requests.RegisterUnsuccessful">
+        <test-method signature="registerunsuccessful()[pri:0, instance:com.reqres.requests.RegisterUnsuccessful@59505b48]" started-at="2022-05-29T13:04:07 IST" name="registerunsuccessful" finished-at="2022-05-29T13:04:08 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerunsuccessful -->
+      </class> <!-- com.reqres.requests.RegisterUnsuccessful -->
+      <class name="com.reqres.requests.UpdatePatch">
+        <test-method signature="update()[pri:0, instance:com.reqres.requests.UpdatePatch@3a44431a]" started-at="2022-05-29T13:03:55 IST" name="update" finished-at="2022-05-29T13:03:56 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- com.reqres.requests.UpdatePatch -->
+      <class name="com.reqres.requests.UpdatePut">
+        <test-method signature="updatePut()[pri:0, instance:com.reqres.requests.UpdatePut@2ea41516]" started-at="2022-05-29T13:03:55 IST" name="updatePut" finished-at="2022-05-29T13:03:55 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePut -->
+      </class> <!-- com.reqres.requests.UpdatePut -->
+      <class name="com.reqres.requests.RegisterSuccessful">
+        <test-method signature="registersuccessful()[pri:0, instance:com.reqres.requests.RegisterSuccessful@29215f06]" started-at="2022-05-29T13:04:07 IST" name="registersuccessful" finished-at="2022-05-29T13:04:07 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registersuccessful -->
+      </class> <!-- com.reqres.requests.RegisterSuccessful -->
+    </test> <!-- Regression -->
+    <test started-at="2022-05-29T13:04:09 IST" name="Smoke" finished-at="2022-05-29T13:04:15 IST" duration-ms="5584">
+      <class name="com.reqres.requests.Create">
+        <test-method signature="create()[pri:0, instance:com.reqres.requests.Create@20140db9]" started-at="2022-05-29T13:04:09 IST" name="create" finished-at="2022-05-29T13:04:15 IST" duration-ms="5582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- com.reqres.requests.Create -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Whole Suite -->
+</testng-results>
