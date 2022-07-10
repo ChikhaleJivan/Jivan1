@@ -28,7 +28,7 @@ public class DelayedResponse
 
 		String statusline=response.getStatusLine();
 		System.out.println("Status line is "+statusline);
-		
+
 		System.out.println("*********ALL HEADERS***********");
 
 		int i=1;

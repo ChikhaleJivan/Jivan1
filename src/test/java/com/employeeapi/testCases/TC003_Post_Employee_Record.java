@@ -15,7 +15,6 @@ public class TC003_Post_Employee_Record extends TestBase
 	String empName=RestUtils.empName();
 	String empSalary=RestUtils.empSal();
 	String empAge=RestUtils.empAge();
-
 	@SuppressWarnings("unchecked")
 	@BeforeClass
 	void createEmployee() throws InterruptedException
@@ -31,7 +30,6 @@ public class TC003_Post_Employee_Record extends TestBase
 		response = httpRequest.request(Method.POST, "/create");
 		Thread.sleep(5000);
 	}
-
 	@Test
 	void Validations()
 	{
@@ -39,19 +37,14 @@ public class TC003_Post_Employee_Record extends TestBase
 		Assert.assertEquals(responseBody.contains(empName), true);
 		Assert.assertEquals(responseBody.contains(empSalary), true);
 		Assert.assertEquals(responseBody.contains(empAge), true);
-
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
-
 		String statusLine = response.getStatusLine();
 		Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
-
 		String contentType = response.header("Content-Type");
 		Assert.assertEquals(contentType, "text/html; charset=UTF-8");
-
 		String serverType = response.header("Server");
 		Assert.assertEquals(serverType, "nginx/1.14.1");
-
 		String contentEncoding = response.header("Content-Encoding");
 		Assert.assertEquals(contentEncoding, "gzip");
 	}
