@@ -1,5 +1,4 @@
 package com.reqres.requests;
-import static org.junit.Assert.assertTrue;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
@@ -19,7 +18,7 @@ public class SingleResourceNotFound
 
 		int statuscode=response.getStatusCode();
 		System.out.println("Status COde is "+statuscode);
-		assertTrue("404", true);
+		
 
 		long time=response.getTime();
 		System.out.println("Time taken is "+time);
