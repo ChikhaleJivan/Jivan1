@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="codes.ifrem">
+      <class name="practice.ReadingFromExcel">
         <methods>
-          <include name="openwindow"/>
+          <include name="ReadingFromMain"/>
         </methods>
-      </class> <!-- codes.ifrem -->
+      </class> <!-- practice.ReadingFromExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
