@@ -19,7 +19,7 @@ public class ArrayListDemo3 {
         }
 
         // Create an ArrayList from an array
-        ArrayList animals = new ArrayList(Arrays.asList(arr));
+        ArrayList<String> animals = new ArrayList<String>(Arrays.asList(arr));
         System.out.println("Array List Elements......"+animals);
 
 	}

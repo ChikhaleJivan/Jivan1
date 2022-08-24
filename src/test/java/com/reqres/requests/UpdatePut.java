@@ -51,6 +51,8 @@ public class UpdatePut
 
 		String statusline=response.getStatusLine();
 		System.out.println("Status line is "+statusline);
+		String content=response.getHeader("Content-Type");
+		System.out.println(content);
 		
 		int i=1;
 		Headers allheaders=response.headers();

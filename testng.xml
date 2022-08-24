@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.reqres.requests.UpdatePatch"/>
+      <class name="com.reqres.requests.SingleResource"/>
+      <class name="com.reqres.requests.Create"/>
+      <class name="com.reqres.requests.UpdatePut"/>
+      <class name="com.reqres.requests.RegisterSuccessful"/>
+      <class name="com.reqres.requests.LogngSuccessfull"/>
+      <class name="com.reqres.requests.DelayedResponse"/>
+      <class name="com.reqres.requests.ListUser"/>
+      <class name="com.reqres.requests.RegisterUnsuccessful"/>
+      <class name="com.reqres.requests.LoginUnsuccessfull"/>
+      <class name="com.reqres.requests.ListResources"/>
+      <class name="com.reqres.requests.Delete"/>
+      <class name="com.reqres.requests.SingleResourceNotFound"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

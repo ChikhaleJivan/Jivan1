@@ -1,12 +1,11 @@
 package collectiondemos;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 
 public class LinkedListDemo1 {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 	
 		//Declare ArrayList

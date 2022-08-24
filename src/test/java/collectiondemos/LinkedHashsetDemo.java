@@ -3,8 +3,10 @@ package collectiondemos;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
+@SuppressWarnings("unused")
 public class LinkedHashsetDemo {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		
 		//LinkedHashSet <Integer>lset=new LinkedHashSet<Integer>();

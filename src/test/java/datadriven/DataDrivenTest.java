@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 public class DataDrivenTest 
 {
 	WebDriver driver;
+	@SuppressWarnings("deprecation")
 	@BeforeClass
 	public void setup()
 	{

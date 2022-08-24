@@ -3,13 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="datadriven.DataDrivenTest">
+      <class name="com.reqres.requests.RegisterSuccessful">
         <methods>
-          <include name="loginTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="registersuccessful"/>
         </methods>
-      </class> <!-- datadriven.DataDrivenTest -->
+      </class> <!-- com.reqres.requests.RegisterSuccessful -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

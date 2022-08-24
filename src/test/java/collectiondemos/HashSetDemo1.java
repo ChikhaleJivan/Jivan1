@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 public class HashSetDemo1 {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 	
 		

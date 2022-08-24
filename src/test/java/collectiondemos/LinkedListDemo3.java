@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class LinkedListDemo3 {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
 		LinkedList l=new LinkedList();

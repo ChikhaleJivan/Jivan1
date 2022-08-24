@@ -3,8 +3,10 @@ package collectiondemos;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
+@SuppressWarnings("unused")
 public class QueueDemo {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 	
 		PriorityQueue q=new PriorityQueue();

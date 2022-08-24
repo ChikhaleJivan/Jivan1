@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.ReadingFromExcel">
+      <class name="com.reqres.requests.UpdatePatch">
         <methods>
-          <include name="ReadingFromMain"/>
+          <include name="update"/>
         </methods>
-      </class> <!-- practice.ReadingFromExcel -->
+      </class> <!-- com.reqres.requests.UpdatePatch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

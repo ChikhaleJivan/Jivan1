@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Grades 
 {
 	double sub1marks,sub2marks,sub3marks;
+	@SuppressWarnings("resource")
 	public void get()
 	{
 		System.out.println("Enter marks for 3 subjects");

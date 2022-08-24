@@ -8,6 +8,7 @@ import java.util.Set;
 
 public class HashMapDemo {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		
 		//HashMap m=new HashMap();
@@ -64,13 +65,13 @@ public class HashMapDemo {
 		
 		//iterator()
 		
-		Set s=m.entrySet();
+		Set<?> s=m.entrySet();
 		
-		Iterator itr=s.iterator();
+		Iterator<?> itr=s.iterator();
 	
 			while(itr.hasNext())
 			{
-			Map.Entry entry=(Entry) itr.next();   // 101 x  entry
+			Map.Entry entry=(Entry<?, ?>) itr.next();   // 101 x  entry
 			System.out.println(entry.getKey()+"      "+entry.getValue());
 			
 			}

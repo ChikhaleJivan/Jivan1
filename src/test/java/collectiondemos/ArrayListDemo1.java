@@ -6,13 +6,14 @@ import java.util.List;
 
 public class ArrayListDemo1 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		
 		//1) declare arraylist
 		//ArrayList<Integer> ar=new ArrayList<Integer>();   // only accepts Integers
 		//ArrayList<String> ar=new ArrayList<String>();   // only accepts Strings
 		//ArrayList al=new ArrayList(); // accepts all data type values
-		List al=new ArrayList();
+		List<Comparable> al=new ArrayList<Comparable>();
 		
 		//2) How to add individual values in to arraylist
 		al.add(100);
@@ -61,7 +62,7 @@ public class ArrayListDemo1 {
 			}
 			
 		 	System.out.println("***** Read all elements from Array List using Iterator *****");
-			Iterator itr=al.iterator();//getting the Iterator  
+			Iterator<Comparable> itr=al.iterator();//getting the Iterator  
 			  while(itr.hasNext())//check if iterator has the elements  
 			  {
 			   System.out.println(itr.next());//printing the element and move to next  

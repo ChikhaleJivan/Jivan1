@@ -19,7 +19,7 @@ public class RegisterSuccessful
 
 		JsonObject js=new JsonObject();
 		js.addProperty("email","eve.holt@reqres.in");
-		js.addProperty("password","pistol");
+		js.addProperty("password","");
 
         httprequest.header("Content-Type","Application/Json");
 		httprequest.body(js.toString());

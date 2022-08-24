@@ -8,6 +8,7 @@ import java.util.Set;
 
 public class HashtableDemo {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 	
 		//Hashtable t=new Hashtable();  // capacity is 11, load factor 0.75

@@ -7,7 +7,7 @@ public class ArrayListDemo2 {
 
 	public static void main(String[] args) {
 		
-	ArrayList al=new ArrayList(); // accepts all data type values
+	ArrayList<String> al=new ArrayList<String>(); // accepts all data type values
 		
 		al.add("X");
 		al.add("Y");
@@ -17,7 +17,7 @@ public class ArrayListDemo2 {
 		al.add("C");
 		
 		//Add elements of an array list to another array list - addAll()
-		ArrayList al_dup=new ArrayList();
+		ArrayList<String> al_dup=new ArrayList<String>();
 		al_dup.addAll(al);
 		System.out.println(al_dup); 
 
